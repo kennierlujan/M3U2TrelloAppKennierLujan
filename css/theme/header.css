@@ -1,0 +1,17 @@
+.header-app {
+    box-shadow: var(--box-shadow-lg);
+    background-color: var(--c-background-light);  
+  }
+  
+  .header-app, 
+  .header-app .l-container
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo 
+  { 
+    max-height: calc(var(--gutter) * 2);
+  }

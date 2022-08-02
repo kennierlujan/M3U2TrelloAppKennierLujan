@@ -1,0 +1,13 @@
+.main-app
+{
+  flex-direction: column;
+  background-color: var(--c-first-main);
+}
+
+.main-app,
+.main-app .l-container
+{
+  flex: 1;
+  display: flex;
+  gap: var(--gutter);
+}

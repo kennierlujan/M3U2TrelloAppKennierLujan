@@ -1,0 +1,39 @@
+.form-new-task
+{
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter);
+}
+
+.row-form
+{
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--gutter) / 4);
+}
+
+.form-new-task__label
+{
+  font-size: var(--fs-small);
+  font-family: var(--f-second);
+  font-weight: var(--fw-bold);
+  color: var(--c-text-dark);
+}
+
+.form-new-task__input,
+select
+{
+  padding: calc(var(--gutter) / 2);
+}
+
+.form-new-task__buttons 
+{
+  display: flex;
+  gap: calc(var(--gutter) / 2);
+}
+
+.form-new-task__buttons  
+button
+{
+  flex: 1;
+}

@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--c-accent-lighter);
+  line-height: var(--line-height-body);
+	font-size: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--f-first);
+  line-height: var(--line-height-heading);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--f-second);
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------------ RESET STYLES ------------------ */

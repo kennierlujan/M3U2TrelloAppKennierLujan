@@ -1,0 +1,25 @@
+.section-app 
+{
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter);
+  min-width: 300px;
+}
+
+.section-status-title 
+{
+  font-size: var(--fp-large);
+  color: var(--c-text-dark);
+}
+
+.container-tasks
+{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter);
+  box-shadow: var(--box-shadow-lg);
+  padding: var(--gutter);
+  background-color: var(--c-background-light);
+  border-radius: var(--border-radius-md);
+}

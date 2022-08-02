@@ -1,0 +1,33 @@
+.card-task 
+{
+  padding: var(--gutter);
+  box-shadow: var(--box-shadow-sm);
+  border-radius: var(--border-radius-md);
+  /* transition: var(--duration-transition-base); */
+  cursor: pointer;
+}
+
+.card-task:hover
+{
+  transform: scale(1.01);
+}
+
+.card-task__title 
+{
+  font-size: var(--fp-base);
+  color: var(--c-accent-darker);
+}
+
+.card_task__responsible,
+.card-task__date 
+{
+  font-size: var(--fs-normal);
+  color: var(--c-accent-darker);
+}
+
+.card_task__responsible--tag-creator,
+.card-task__date--tag-date
+{
+  font-size: var(--fs-small);
+  color: var(--c-text-dark);
+}

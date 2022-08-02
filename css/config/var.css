@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap");
+
+:root {
+
+  /* COLOR PALETTE */
+
+/*---------------------*/
+  /* Primary color */
+  --c-first-main: #F1F1FB;
+
+  /* Secondary color */
+  --c-second-main: #EA4C3C;
+
+  /* Tertiary color */
+  --c-third-main: #393A62;
+
+  /* Accent colors */
+  --c-accent-lighter: #f8f8f8;
+  --c-accent-darker: #080d19;
+
+  /* Text colors */
+  --c-text-light: var(--c-accent-lighter);
+  --c-text-dark: var(--c-accent-darker);
+
+  /* Background colors */
+  --c-background-light: var(--c-accent-lighter);
+
+/*---------------------*/
+
+  /* TYPOGRAPHY */
+
+/*---------------------*/
+  /* Fonts family   */
+  --f-first: "Oswald", sans-serif;
+  --f-second: "Raleway", sans-serif;
+
+  /* Primary font size  */
+  --fp-xxlarge: 2.25rem;    /* 36px */
+  --fp-xlarge: 1.75rem;     /* 28px */
+  --fp-large: 1.5rem;       /* 24px */
+  --fp-base: 1.125rem;      /* 18px */
+  --fp-small: 1rem;         /* 16px */
+  --fp-smaller: 0.875rem;   /* 14px */
+
+  /* Secondary font size */
+  --fs-bigger: 1.625rem;    /* 26px */
+  --fs-big: 1.5rem;         /* 24px */
+  --fs-medium: 1.25rem;     /* 16px */
+  --fs-regular: 1.125rem;   /* 18px */
+  --fs-normal: 1rem;        /* 16px */
+  --fs-small: 0.875rem;     /* 14px */
+
+  /* Font weight   */
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+/*---------------------*/
+
+  /* THEME */
+
+/*---------------------*/   
+  /* Border radius */
+  --border-radius-sm: 0.188rem;   /* 3px */
+  --border-radius-md: 0.313rem;   /* 5px */
+  --border-radius-lg: 0.625rem;   /* 10px */
+  --border-radius-full: 999px;
+
+  /* Box shadow */
+  --box-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --box-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --box-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+	/* Scale */
+  --scale-xs: scale(0.98);
+
+  /* Transition */
+  --duration-transition-base: 300ms ease-in-out;
+
+  /* Line height */
+  --line-height-heading: 1.3;
+  --line-height-body: 1.6;
+
+  /* Layers */
+  --z-layer-back: -10;
+  --z-layer-base: 1;
+  --z-layer-tooltip: 10;
+  --z-layer-fixed: 100;
+  --z-layer-modal: 1000;
+/*---------------------*/   
+
+  /* LAYOUT */
+
+/*---------------------*/   
+  /* Separator */
+  --gutter: 1rem;  /* 16px */
+
+  /* Others */
+  --max-width: 1240px;
+/*---------------------*/   
+}
