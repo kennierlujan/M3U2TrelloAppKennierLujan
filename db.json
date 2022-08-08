@@ -1,0 +1,22 @@
+{
+  "task":[
+      {
+          "id": 1,
+          "title": "Frontend",
+          "person": "Kennier_Frontend",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "state": "done",
+          "deadline": 1659379168,
+          "created": 1659206368
+      },
+      {
+          "id": 2,
+          "title": "Backend",
+          "person": "Kennier_Backend",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "state": "to-do",
+          "deadline": 1659379168,
+          "created": 1659206368
+      }
+  ]
+} 
