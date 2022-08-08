@@ -1,3 +1,4 @@
 const dateFormat = (time, format = 'DD/MM/YYYY') => {
-    return moment.unix(time).format(format):
-};
+    // Con el moment.unix generamos una fecha a partir de un timestamp y luego aplicamos el format 
+    return moment.unix(time).format(format);
+  };

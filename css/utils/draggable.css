@@ -1,17 +1,17 @@
 .draggable-mirror {
-    z-index: 999;
-  }
-  
-  .draggable-container--over article:not(.draggable-mirror) {
-    z-index: 0;
-  }
-  
-  .draggable--over, .draggable-source--is-dragging {
-    border-color: goldenrod;
-    opacity: .4;
-    background-color: var(--c-accent-lighter);
-  }
-  
-  .draggable-container--over {
-    border: none;
-  }
+  z-index: 999;
+}
+
+.draggable-container--over article:not(.draggable-mirror) {
+  z-index: 0;
+}
+
+.draggable--over, .draggable-source--is-dragging {
+  border-color: goldenrod;
+  opacity: .4;
+  background-color: var(--c-accent-lighter);
+}
+
+.draggable-container--over {
+  border: none;
+}
