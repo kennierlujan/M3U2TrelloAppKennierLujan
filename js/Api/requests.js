@@ -1,8 +1,6 @@
 // Creación de varible para guarda la URL de la API Fake
 const API_URL = "https://my-json-server.typicode.com/kennierlujan/M3U2TrelloAppKennierLujan";
 
-/*const API_URL = "https://my-json-server.typicode.com/Stiwar9816/kanbanApp";*/
-
 //Hacemos una petición get a la API Fake utlizando los templates strings
 axios
   .get(`${API_URL}/tasks`)
